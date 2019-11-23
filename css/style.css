@@ -1,0 +1,58 @@
+html{
+    font-family: "Comic Sans MS";
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#fixed-menu{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+
+}
+
+#message-container {
+    margin-top: 75px;
+    margin-bottom: 80px;
+    padding-top: 10px;
+    width: 80%;
+    max-width: 1200px;
+}
+
+#message-container div {
+    background-color: darkolivegreen;
+    padding: 5px;
+}
+
+#message-container div:nth-child(2n) {
+    background-color: #FFF;
+}
+
+#send-container {
+    position: fixed;
+    padding-bottom: 30px;
+    bottom: 35px;
+    background-color: white;
+    max-width: 1200px;
+    width: 80%;
+    display: flex;
+}
+
+#message-input {
+    flex-grow: 1;
+}
+
+footer {
+    width: 100%;
+    padding-left: 30px;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+}
